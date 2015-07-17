@@ -24,7 +24,7 @@ export PATH=/sbin:/usr/sbin:$PATH:$CACHE_DIR/.tools/unzip/bin
 
 echo "-----> Fetching and installing unzip"
 cd $UNZIP_BUILD
-curl -OL http://downloads.sourceforge.net/infozip/unzip552.tar.gz
+curl -OL http://ufpr.dl.sourceforge.net/project/infozip/UnZip%205.x%20and%20earlier/5.52/unzip552.tar.gz
 tar zxvf unzip552.tar.gz
 cd unzip-5.52
 cp unix/Makefile .
